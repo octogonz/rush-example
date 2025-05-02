@@ -1,0 +1,17 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  rush-mcp-example-plugin:
+    specifier: file:../../../../rushstack/build-tests/rush-mcp-example-plugin/
+    version: file:../../../../rushstack/build-tests/rush-mcp-example-plugin
+
+packages:
+
+  file:../../../../rushstack/build-tests/rush-mcp-example-plugin:
+    resolution: {directory: ../../../../rushstack/build-tests/rush-mcp-example-plugin, type: directory}
+    name: rush-mcp-example-plugin
+    dev: false
