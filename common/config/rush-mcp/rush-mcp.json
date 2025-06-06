@@ -13,6 +13,8 @@
        */
       "packageName": "rush-mcp-example-plugin",
 
+      "pluginName": "rush-mcp-example-plugin",
+
       /**
        * The name of a Rush autoinstaller with this package as its dependency.
        * The `@rushstack/mcp-server` will automatically ensure this folder is installed
