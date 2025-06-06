@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "rush-mcp-example-plugin": "file:../../../../rushstack/build-tests/rush-mcp-example-plugin/"
+    "rush-mcp-example-plugin": "file:../../../../rushstack/build-tests/rush-mcp-example-plugin/",
+    "@rushstack/mcp-server": "0.2.0"
   }
 }
