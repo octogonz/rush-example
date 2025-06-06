@@ -6,7 +6,7 @@
        "command": "node",
        "args": [
         "./common/scripts/install-run.js",
-        "@rushstack/mcp-server@0.2.0",
+        "@rushstack/mcp-server@0.2.1",
         "mcp-server",
         "."
       ]
