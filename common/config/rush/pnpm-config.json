@@ -1,6 +1,11 @@
 /**
  * This configuration file provides settings specific to the PNPM package manager.
  * More documentation is available on the Rush website: https://rushjs.io
+ *
+ * Rush normally looks for this file in `common/config/rush/pnpm-config.json`.  However,
+ * if `subspacesEnabled` is true in subspaces.json, then Rush will instead first look
+ * for `common/config/subspaces/<name>/pnpm-config.json`.  (If the file exists in both places,
+ * then the file under `common/config/rush` is ignored.)
  */
 {
   "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/pnpm-config.schema.json",
@@ -167,7 +172,7 @@
     //    * Enables the "disallowInsecureSha1" policy.  The default value is false.
     //    */
     //   "enabled": true,
-    // 
+    //
     //   /**
     //    * In rare cases, a private NPM registry may continue to serve SHA1 hashes for very old
     //    * package versions, perhaps due to a caching issue or database migration glitch.  To avoid
@@ -272,9 +277,9 @@
    *
    * PNPM documentation: https://pnpm.io/package_json#pnpmignoredoptionaldependencies
    */
-  "globalIgnoredOptionalDependencies": [
+  //"globalIgnoredOptionalDependencies": [
     // "fsevents"
-  ],
+  //],
 
   /**
    * The `globalAllowedDeprecatedVersions` setting suppresses installation warnings for package
