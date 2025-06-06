@@ -7,7 +7,8 @@
        "args": [
         "./common/scripts/install-run.js",
         "@rushstack/mcp-server@0.2.0",
-        "mcp-server"
+        "mcp-server",
+        "."
       ]
     }
   }
