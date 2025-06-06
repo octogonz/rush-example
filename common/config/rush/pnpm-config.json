@@ -172,7 +172,7 @@
     //    * Enables the "disallowInsecureSha1" policy.  The default value is false.
     //    */
     //   "enabled": true,
-    // 
+    //
     //   /**
     //    * In rare cases, a private NPM registry may continue to serve SHA1 hashes for very old
     //    * package versions, perhaps due to a caching issue or database migration glitch.  To avoid
@@ -277,9 +277,9 @@
    *
    * PNPM documentation: https://pnpm.io/package_json#pnpmignoredoptionaldependencies
    */
-  "globalIgnoredOptionalDependencies": [
+  //"globalIgnoredOptionalDependencies": [
     // "fsevents"
-  ],
+  //],
 
   /**
    * The `globalAllowedDeprecatedVersions` setting suppresses installation warnings for package
